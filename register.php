@@ -5,6 +5,7 @@
    define('DB_DATABASE', 'database');
    $db = mysqli_connect('localhost','root',"",'test');
  ?>
+ 
 <?php
 if(isset($_POST) & !empty($_POST)){
 	@$username = ($_POST['username']);
